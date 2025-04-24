@@ -134,3 +134,18 @@ body {
 #linkArcher.show{
   opacity: 1;
 }
+
+#introLoading{
+  z-index: 100;
+  display: block;
+  opacity: 1;
+  position: fixed;
+  left: 130px;
+  top: 350px;
+  color: darkviolet;
+  transition: 3s;
+}
+
+#introLoading.hide{
+  opacity: 0;
+}
