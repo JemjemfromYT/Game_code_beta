@@ -157,7 +157,7 @@ if (ballX-ballRadius < 0){
       alert("actually this game was programmed through algorithm which is there is no way you can defeat the ai")
       alert("the code is")
       alert("the code is 80**")
-      window.location.href="/2CodeIndex.html"
+      window.location.href="2CodeIndex.html"
     }
     reset();
   }
