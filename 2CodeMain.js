@@ -53,7 +53,7 @@ go22.addEventListener("click", function() {
               }, 1);
               setTimeout(() => {
                 window.location.href = "credits.html";
-              }, 4500);
+              }, 6500);
             }, 2000);
           }, 2000);
         }, 2000);
