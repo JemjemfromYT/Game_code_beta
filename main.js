@@ -21,7 +21,11 @@ let signIn = document.getElementById ("signIn")
 let stage1 = document.getElementById("stage1")
 let linkArcher = document.getElementById ("linkArcher")
 let developed = document.getElementById ("developed")
+let introLoading = document.getElementById ("introLoading")
 
+setTimeout(()=>{
+  introLoading.classList.add("hide")
+},3500);
 
 setTimeout(() => {
   notification.classList.add("hide");
